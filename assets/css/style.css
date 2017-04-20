@@ -1,0 +1,56 @@
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.banner {
+	text-align: center;
+	background: url(../images/cc1.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: -25px;
+  margin-left: -25px;
+  margin-right: -25px;
+	height: 270px;
+}
+
+.cupcake { 
+	padding: 30px;
+	display: inline-block;
+ }
+
+ img {
+ 	border: solid;
+ 	border-radius: 55%;
+ }
+
+.products { 
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+ }
+
+ .bio {
+ 	width: 400px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ }
+
+ .flashy {
+ 	text-align: center;
+ 	color: red;
+ 	font-style: italic;
+ }
+
+ .description {
+ 	text-align: center;
+ }
+
+ .best {
+ /*	border-radius: 55%;*/
+	display: inline-block;
+ 	border-width: 6px;
+ }
