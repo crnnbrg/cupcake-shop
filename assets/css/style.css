@@ -1,56 +1,67 @@
 body {
-	font-family: 'Quicksand', sans-serif;
-	font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 18px;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .banner {
-	text-align: center;
-	background: url(../images/cc1.jpg);
-	background-repeat: no-repeat;
-	-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  margin-top: -25px;
-  margin-left: -25px;
-  margin-right: -25px;
-	height: 270px;
+    text-align: center;
+    background: url(../images/cc1.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: -25px;
+    margin-left: -25px;
+    margin-right: -25px;
+    height: 270px;
 }
 
-.cupcake { 
-	padding: 30px;
-	display: inline-block;
- }
+.cupcake {
+    padding: 30px;
+    display: inline-block;
+}
 
- img {
- 	border: solid;
- 	border-radius: 55%;
- }
+img {
+    border: solid;
+    border-radius: 55%;
+}
 
-.products { 
-	margin-left: auto;
-	margin-right: auto;
-	padding: 20px;
- }
+.products {
+    margin-left: 7.5%;
+    padding: 20px;
+}
 
- .bio {
- 	width: 400px;
- 	margin-right: auto;
- 	margin-left: auto;
- }
+.bio {
+    width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
- .flashy {
- 	text-align: center;
- 	color: red;
- 	font-style: italic;
- }
+.flashy {
+    text-align: center;
+    color: red;
+    font-style: italic;
+}
 
- .description {
- 	text-align: center;
- }
+.description {
+    text-align: center;
+}
 
- .best {
- /*	border-radius: 55%;*/
-	display: inline-block;
- 	border-width: 6px;
- }
+.best {
+    /*  border-radius: 55%;*/
+    display: inline-block;
+    border-width: 6px;
+}
+
+.add_to_cart_btn {
+    text-align: center;
+}
