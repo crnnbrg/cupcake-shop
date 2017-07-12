@@ -31,7 +31,7 @@ main {
 }
 
 img {
-    border: solid;
+    border: 0.2px solid;
     border-radius: 55%;
 }
 
@@ -54,12 +54,6 @@ img {
 
 .description {
     text-align: center;
-}
-
-.best {
-    /*  border-radius: 55%;*/
-    display: inline-block;
-    border-width: 6px;
 }
 
 .add_to_cart_btn {
