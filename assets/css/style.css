@@ -65,3 +65,12 @@ img {
 .add_to_cart_btn {
     text-align: center;
 }
+
+.page-footer {
+    /*background-color: #26a69a;*/
+    background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://static.pexels.com/photos/48184/bun-sweets-pastries-pastry-shop-48184.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
